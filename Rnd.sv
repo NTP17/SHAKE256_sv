@@ -10,9 +10,9 @@ module Rnd (
     logic [63:0] A_chi   [0:4][0:4];
 
     theta theta_inst (.A_in(A_in),    .A_out(A_theta));
-    rho   rho_inst   (.A_in(A_theta), .A_out(A_rho));
-    pi    pi_inst    (.A_in(A_rho),   .A_out(A_pi));
-    chi   chi_inst   (.A_in(A_pi),    .A_out(A_chi));
-    iota  iota_inst  (.A_in(A_chi),   .A_out(A_out), .i_r(i_r));
+    rho   rho_inst   (.A_in(A_theta), .A_out(A_out/*A_rho*/));
+    // pi    pi_inst    (.A_in(A_rho),   .A_out(A_pi));
+    // chi   chi_inst   (.A_in(A_pi),    .A_out(A_chi));
+    // iota  iota_inst  (.A_in(A_chi),   .A_out(A_out), .i_r(i_r));
 
 endmodule

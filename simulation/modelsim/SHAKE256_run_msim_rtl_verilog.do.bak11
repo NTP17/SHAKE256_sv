@@ -5,7 +5,14 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv}
 vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv}
 
 vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv}
 

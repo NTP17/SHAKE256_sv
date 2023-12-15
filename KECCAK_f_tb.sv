@@ -63,38 +63,40 @@ module KECCAK_f_tb;
             end
         end
 
+        $display;
+
         for (y = 0; y < 5; y = y + 1) begin
             for (x = 0; x < 5; x = x + 1) begin
                 $display("A_out[%0d, %0d] = %h", x, y, A_out[x][y]);
             end
         end
 
-        $display("Expected:");
-        $display("A_out[0, 0] = 000000000000001e");
-        $display("A_out[1, 0] = 000000000000001f");
-        $display("A_out[2, 0] = 8000000000000000");
-        $display("A_out[3, 0] = 0000000000000000");
-        $display("A_out[4, 0] = 000000000000003e");
-        $display("A_out[0, 1] = 0000000000000001");
-        $display("A_out[1, 1] = 000000000000001f");
-        $display("A_out[2, 1] = 8000000000000000");
-        $display("A_out[3, 1] = 0000000000000000");
-        $display("A_out[4, 1] = 000000000000003e");
-        $display("A_out[0, 2] = 0000000000000001");
-        $display("A_out[1, 2] = 000000000000001f");
-        $display("A_out[2, 2] = 8000000000000000");
-        $display("A_out[3, 2] = 0000000000000000");
-        $display("A_out[4, 2] = 000000000000003e");
-        $display("A_out[0, 3] = 0000000000000001");
-        $display("A_out[1, 3] = 800000000000001f");
-        $display("A_out[2, 3] = 8000000000000000");
-        $display("A_out[3, 3] = 0000000000000000");
-        $display("A_out[4, 3] = 000000000000003e");
-        $display("A_out[0, 4] = 0000000000000001");
-        $display("A_out[1, 4] = 000000000000001f");
-        $display("A_out[2, 4] = 8000000000000000");
-        $display("A_out[3, 4] = 0000000000000000");
-        $display("A_out[4, 4] = 000000000000003e");
+        // $display("Expected:");
+        // $display("A_out[0, 0] = 000000000000001e");
+        // $display("A_out[1, 0] = 000000000000001f");
+        // $display("A_out[2, 0] = 8000000000000000");
+        // $display("A_out[3, 0] = 0000000000000000");
+        // $display("A_out[4, 0] = 000000000000003e");
+        // $display("A_out[0, 1] = 0000000000000001");
+        // $display("A_out[1, 1] = 000000000000001f");
+        // $display("A_out[2, 1] = 8000000000000000");
+        // $display("A_out[3, 1] = 0000000000000000");
+        // $display("A_out[4, 1] = 000000000000003e");
+        // $display("A_out[0, 2] = 0000000000000001");
+        // $display("A_out[1, 2] = 000000000000001f");
+        // $display("A_out[2, 2] = 8000000000000000");
+        // $display("A_out[3, 2] = 0000000000000000");
+        // $display("A_out[4, 2] = 000000000000003e");
+        // $display("A_out[0, 3] = 0000000000000001");
+        // $display("A_out[1, 3] = 800000000000001f");
+        // $display("A_out[2, 3] = 8000000000000000");
+        // $display("A_out[3, 3] = 0000000000000000");
+        // $display("A_out[4, 3] = 000000000000003e");
+        // $display("A_out[0, 4] = 0000000000000001");
+        // $display("A_out[1, 4] = 000000000000001f");
+        // $display("A_out[2, 4] = 8000000000000000");
+        // $display("A_out[3, 4] = 0000000000000000");
+        // $display("A_out[4, 4] = 000000000000003e");
 
         // End the simulation
         $stop;
