@@ -8,101 +8,101 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/simulation/modelsim
+Z0 dC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/simulation/modelsim
 vA_to_S
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1702574523
+Z2 !s110 1702614672
 !i10b 1
 !s100 mS[DmV:n8BAEk^0A[K1nI1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IT;Pem?HTI_E]MT?NZ1Ua60
+IaVn>N0CggGbNAX_9NkLC>3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
 w1702536362
-8C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/A_to_S.sv
-FC:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/A_to_S.sv
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv
 !i122 2
 Z5 L0 1 50
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1702574523.000000
-!s107 C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/A_to_S.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me|C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/A_to_S.sv|
+Z7 !s108 1702614672.000000
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv|
 !i113 1
 Z8 o-sv -work work
-Z9 !s92 -sv -work work {+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me}
+Z9 !s92 -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv
 Z10 tCvgOpt 0
 n@a_to_@s
-vKECCAK_p
+vKECCAK_f
 R1
 R2
 !i10b 1
-!s100 <zzVld^dF8b6=<:hO5X1H3
+!s100 7l8Hh?8e5iT4<WGiRNNNk1
 R3
-I4A>S^N8bgXnZ5cBVN2Ybb1
+Iz]ZY7YODBb4o8gC>@bOd41
 R4
 S1
 R0
-w1702536393
-8C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p.sv
-FC:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p.sv
+w1702604497
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv
 !i122 0
 L0 1 16
 R6
 r1
 !s85 0
 31
-!s108 1702574522.000000
-!s107 C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me|C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p.sv|
+R7
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv|
 !i113 1
 R8
 R9
 R10
-n@k@e@c@c@a@k_p
-vKECCAK_p_tb
+n@k@e@c@c@a@k_f
+vKECCAK_f_tb
 R1
 R2
 !i10b 1
-!s100 ?3n2GW2XVUUcmWklG>W720
+!s100 Q<e4GcMnek`281eR<I5D73
 R3
-IC_C;zdA>fnb]0i?hbVK=11
+Im6bezj?MO7C?gRO1kc>Tl1
 R4
 S1
 R0
-w1702541196
-8C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv
-FC:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv
+w1702614630
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv
 !i122 4
-L0 3 29
+L0 3 30
 R6
 r1
 !s85 0
 31
 R7
-!s107 C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me|C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv|
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv|
 !i113 1
 R8
 R9
 R10
-n@k@e@c@c@a@k_p_tb
+n@k@e@c@c@a@k_f_tb
 vS_to_A
 R1
 R2
 !i10b 1
 !s100 [MXoD=_en@6im]]G2mmUX0
 R3
-I5fh2;@P@QWWZea;<ViVga2
+IQL0EFg[IDW0H5ncAfV]`?3
 R4
 S1
 R0
 w1702536369
-8C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/S_to_A.sv
-FC:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/S_to_A.sv
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv
 !i122 1
 R5
 R6
@@ -110,8 +110,8 @@ r1
 !s85 0
 31
 R7
-!s107 C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/S_to_A.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me|C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/S_to_A.sv|
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv|
 !i113 1
 R8
 R9
@@ -123,13 +123,13 @@ R2
 !i10b 1
 !s100 94e]@4IT67_;GF3P;3Vbz1
 R3
-IVc]GB2RkD0934K9@T53<:2
+IlGMj^2O5];8cF@[H[DXT40
 R4
 S1
 R0
-w1702541072
-8C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/theta.sv
-FC:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/theta.sv
+w1702610310
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv
 !i122 3
 L0 1 32
 R6
@@ -137,8 +137,8 @@ r1
 !s85 0
 31
 R7
-!s107 C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/theta.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me|C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/theta.sv|
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv|
 !i113 1
 R8
 R9
