@@ -12,57 +12,57 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:56 on Dec 15,2023
+# Start time: 23:43:57 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv 
 # -- Compiling module KECCAK_f
 # 
 # Top level modules:
 # 	KECCAK_f
-# End time: 15:19:56 on Dec 15,2023, Elapsed time: 0:00:00
+# End time: 23:43:57 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:56 on Dec 15,2023
+# Start time: 23:43:57 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv 
 # -- Compiling module Rnd
 # 
 # Top level modules:
 # 	Rnd
-# End time: 15:19:57 on Dec 15,2023, Elapsed time: 0:00:01
+# End time: 23:43:57 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:57 on Dec 15,2023
+# Start time: 23:43:57 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv 
 # -- Compiling module iota
 # 
 # Top level modules:
 # 	iota
-# End time: 15:19:57 on Dec 15,2023, Elapsed time: 0:00:00
+# End time: 23:43:57 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:57 on Dec 15,2023
+# Start time: 23:43:57 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv 
 # -- Compiling module rc
 # 
 # Top level modules:
 # 	rc
-# End time: 15:19:57 on Dec 15,2023, Elapsed time: 0:00:00
+# End time: 23:43:57 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:57 on Dec 15,2023
+# Start time: 23:43:57 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv 
 # -- Compiling module theta
 # 
 # Top level modules:
 # 	theta
-# End time: 15:19:57 on Dec 15,2023, Elapsed time: 0:00:00
+# End time: 23:43:57 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:57 on Dec 15,2023
+# Start time: 23:43:58 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv 
 # -- Compiling module rho
 # ** Warning: C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv(16): (vlog-2182) 'x' might be read before written in always_comb or always @* block.
@@ -70,43 +70,43 @@
 # 
 # Top level modules:
 # 	rho
-# End time: 15:19:58 on Dec 15,2023, Elapsed time: 0:00:01
+# End time: 23:43:58 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:58 on Dec 15,2023
+# Start time: 23:43:58 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv 
 # -- Compiling module pi
 # 
 # Top level modules:
 # 	pi
-# End time: 15:19:58 on Dec 15,2023, Elapsed time: 0:00:00
+# End time: 23:43:58 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:58 on Dec 15,2023
+# Start time: 23:43:58 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv 
 # -- Compiling module chi
 # 
 # Top level modules:
 # 	chi
-# End time: 15:19:58 on Dec 15,2023, Elapsed time: 0:00:00
+# End time: 23:43:58 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:19:58 on Dec 15,2023
+# Start time: 23:43:58 on Dec 15,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv" C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv 
 # -- Compiling module KECCAK_f_tb
 # 
 # Top level modules:
 # 	KECCAK_f_tb
-# End time: 15:19:59 on Dec 15,2023, Elapsed time: 0:00:01
+# End time: 23:43:58 on Dec 15,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  KECCAK_f_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" KECCAK_f_tb 
-# Start time: 15:19:59 on Dec 15,2023
+# Start time: 23:43:58 on Dec 15,2023
 # Loading sv_std.std
 # Loading work.KECCAK_f_tb
 # Loading work.KECCAK_f
@@ -174,5 +174,5 @@
 # ** Note: $stop    : C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv(102)
 #    Time: 10 ps  Iteration: 0  Instance: /KECCAK_f_tb
 # Break in Module KECCAK_f_tb at C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv line 102
-# End time: 15:25:41 on Dec 15,2023, Elapsed time: 0:05:42
+# End time: 23:44:26 on Dec 15,2023, Elapsed time: 0:00:28
 # Errors: 0, Warnings: 0
