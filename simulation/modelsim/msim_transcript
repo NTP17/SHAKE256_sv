@@ -1,0 +1,88 @@
+# Reading pref.tcl
+# do SHAKE256_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Capstone\ 2\ (EE4405_TT01)\ +\ intern\ (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me {C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:22:02 on Dec 15,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me" C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p.sv 
+# -- Compiling module KECCAK_p
+# 
+# Top level modules:
+# 	KECCAK_p
+# End time: 00:22:03 on Dec 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Capstone\ 2\ (EE4405_TT01)\ +\ intern\ (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me {C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/S_to_A.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:22:03 on Dec 15,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me" C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/S_to_A.sv 
+# -- Compiling module S_to_A
+# 
+# Top level modules:
+# 	S_to_A
+# End time: 00:22:03 on Dec 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Capstone\ 2\ (EE4405_TT01)\ +\ intern\ (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me {C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/A_to_S.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:22:03 on Dec 15,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me" C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/A_to_S.sv 
+# -- Compiling module A_to_S
+# 
+# Top level modules:
+# 	A_to_S
+# End time: 00:22:03 on Dec 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Capstone\ 2\ (EE4405_TT01)\ +\ intern\ (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me {C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/theta.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:22:03 on Dec 15,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me" C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/theta.sv 
+# -- Compiling module theta
+# 
+# Top level modules:
+# 	theta
+# End time: 00:22:03 on Dec 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Capstone\ 2\ (EE4405_TT01)\ +\ intern\ (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me {C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:22:03 on Dec 15,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me" C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv 
+# -- Compiling module KECCAK_p_tb
+# 
+# Top level modules:
+# 	KECCAK_p_tb
+# End time: 00:22:03 on Dec 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  KECCAK_p_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" KECCAK_p_tb 
+# Start time: 00:22:03 on Dec 15,2023
+# Loading sv_std.std
+# Loading work.KECCAK_p_tb
+# Loading work.KECCAK_p
+# Loading work.S_to_A
+# Loading work.theta
+# Loading work.A_to_S
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# S_out =   1f000000000000803e00000000000000000000000000010000000000000000001f0000000000000000000000000000803e00000000000000000000000000010000000000000000001f0000000000000000000000000000803e00000000000000000000000000010000000000000000001f0000000000000000000000000000803e00000000000080000000000000010000000000000000001f0000000000000000000000000000803e00000000000000000000000000010000000000000000001f00000000000000
+# Expected: 1E000000000000001F00000000000000000000000000008000000000000000003E0000000000000001000000000000001F00000000000000000000000000008000000000000000003E0000000000000001000000000000001F00000000000000000000000000008000000000000000003E0000000000000001000000000000001F00000000000080000000000000008000000000000000003E0000000000000001000000000000001F00000000000000000000000000008000000000000000003E00000000000000
+# ** Note: $finish    : C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv(28)
+#    Time: 10 ps  Iteration: 0  Instance: /KECCAK_p_tb
+# 1
+# Break in Module KECCAK_p_tb at C:/Users/ngtph/OneDrive/university courses/Capstone 2 (EE4405_TT01) + intern (EE3375_TT01)/KECCAKs/SHAKE256sv_by_me/KECCAK_p_tb.sv line 28
+# End time: 00:23:20 on Dec 15,2023, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
