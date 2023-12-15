@@ -1,7 +1,7 @@
 module iota (
-	input  A_in  [0:4][0:4][0:63],
+	input  [63:0] A_in  [0:4][0:4],
     input  [4:0] i_r,
-	output A_out [0:4][0:4][0:63]
+	output [63:0] A_out [0:4][0:4]
 );
 
     logic [63:0] round_constant;

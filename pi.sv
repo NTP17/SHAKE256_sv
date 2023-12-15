@@ -1,6 +1,6 @@
 module pi (
-	input  A_in  [0:4][0:4][0:63],
-	output A_out [0:4][0:4][0:63]
+	input  [63:0] A_in  [0:4][0:4],
+	output [63:0] A_out [0:4][0:4]
 );
 
 	genvar x, y, z;

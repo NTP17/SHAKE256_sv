@@ -5,9 +5,6 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv}
-vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv}
-vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv}
 vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv}
 
 vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv {C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv}

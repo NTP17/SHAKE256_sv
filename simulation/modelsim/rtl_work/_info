@@ -9,53 +9,78 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/simulation/modelsim
-vA_to_S
+vchi
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1702614672
+Z2 !s110 1702623764
 !i10b 1
-!s100 mS[DmV:n8BAEk^0A[K1nI1
+!s100 i3caH<NBfQ8QVQH=JAZNH3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IaVn>N0CggGbNAX_9NkLC>3
+IRoJ?b8G9><CkNbfg97S3X2
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1702536362
-8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv
-FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv
-!i122 2
-Z5 L0 1 50
+w1702623539
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv
+!i122 7
+Z5 L0 1 17
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1702614672.000000
-!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/A_to_S.sv|
+Z7 !s108 1702623764.000000
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/chi.sv|
 !i113 1
 Z8 o-sv -work work
 Z9 !s92 -sv -work work +incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv
 Z10 tCvgOpt 0
-n@a_to_@s
-vKECCAK_f
+viota
 R1
 R2
 !i10b 1
-!s100 7l8Hh?8e5iT4<WGiRNNNk1
+!s100 `K6cR7:7?JhK^Xi[_Z:_22
 R3
-Iz]ZY7YODBb4o8gC>@bOd41
+I4fDfdWgo]@m211KZVE:cM3
 R4
 S1
 R0
-w1702604497
-8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv
-FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv
-!i122 0
-L0 1 16
+w1702623560
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv
+!i122 2
+L0 1 22
 R6
 r1
 !s85 0
 31
 R7
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/iota.sv|
+!i113 1
+R8
+R9
+R10
+vKECCAK_f
+R1
+!s110 1702623763
+!i10b 1
+!s100 o?F1]VA78h6iWm]lDdIOC1
+R3
+IjkNYJ9laSXd`WgP8Ca<LN1
+R4
+S1
+R0
+w1702623648
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv
+!i122 0
+L0 1 8
+R6
+r1
+!s85 0
+31
+Z11 !s108 1702623763.000000
 !s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f.sv|
 !i113 1
@@ -67,17 +92,17 @@ vKECCAK_f_tb
 R1
 R2
 !i10b 1
-!s100 Q<e4GcMnek`281eR<I5D73
+!s100 o`TP5KF95E8A`k65ijC_]1
 R3
-Im6bezj?MO7C?gRO1kc>Tl1
+IXU?PZz65Z_S?1KXK3]P2Y0
 R4
 S1
 R0
-w1702614630
+w1702623663
 8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv
 FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/KECCAK_f_tb.sv
-!i122 4
-L0 3 30
+!i122 8
+L0 3 101
 R6
 r1
 !s85 0
@@ -90,48 +115,126 @@ R8
 R9
 R10
 n@k@e@c@c@a@k_f_tb
-vS_to_A
+vpi
 R1
 R2
 !i10b 1
-!s100 [MXoD=_en@6im]]G2mmUX0
+!s100 5Q9:Y]Ji`1`zEC5jfzi?>1
 R3
-IQL0EFg[IDW0H5ncAfV]`?3
+Ib;mU6a]e`IRJjUGD8GUef2
 R4
 S1
 R0
-w1702536369
-8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv
-FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv
-!i122 1
+w1702623515
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv
+!i122 6
 R5
 R6
 r1
 !s85 0
 31
 R7
-!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/S_to_A.sv|
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/pi.sv|
 !i113 1
 R8
 R9
 R10
-n@s_to_@a
+vrc
+R1
+R2
+!i10b 1
+!s100 lUhXD70j^@i_[RkA5lfNZ3
+R3
+IkjWFmd[gTd:3=UZhaif5E1
+R4
+S1
+R0
+w1702486469
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv
+!i122 3
+L0 1 33
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rc.sv|
+!i113 1
+R8
+R9
+R10
+vrho
+R1
+R2
+!i10b 1
+!s100 cR4nm_TPLFnT2SLlX>mI>0
+R3
+IC^KF>>8Mc2R8l9_>BO`f?3
+R4
+S1
+R0
+w1702623528
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv
+!i122 5
+L0 1 41
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/rho.sv|
+!i113 1
+R8
+R9
+R10
+vRnd
+R1
+R2
+!i10b 1
+!s100 KCQ1e0=`8NGQXQJzFkJ:J1
+R3
+ImIenI]RUVlB8kjiAG21kS3
+R4
+S1
+R0
+w1702623713
+8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv
+FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv
+!i122 1
+L0 1 18
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv|C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/Rnd.sv|
+!i113 1
+R8
+R9
+R10
+n@rnd
 vtheta
 R1
 R2
 !i10b 1
-!s100 94e]@4IT67_;GF3P;3Vbz1
+!s100 lF@jOLOeKmcV40>:GI<1a3
 R3
-IlGMj^2O5];8cF@[H[DXT40
+IMN;claDHfN_;A3K?idoI00
 R4
 S1
 R0
-w1702610310
+w1702622537
 8C:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv
 FC:/Users/ngtph/OneDrive/references/Codes/GitHubs/SHAKE256_sv/theta.sv
-!i122 3
-L0 1 32
+!i122 4
+L0 1 27
 R6
 r1
 !s85 0
