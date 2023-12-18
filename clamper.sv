@@ -1,5 +1,5 @@
-module clamper (input [3:0] in, output [3:0] out);
+module clamper (input [2:0] in, output [2:0] out);
 
-    assign out = (in > 8) ? 8 : in;
+    assign out = (in > 4) ? 4 : in;
 
 endmodule
