@@ -1,0 +1,14 @@
+1 button for clock
+1 button for last signal
+1 button for MSB of message input length
+
+8 switches for message input
+3 switches for message input length
+7 switches for message output length (in 32-bit words)
+
+All red LEDs are hooked with the corresponding switches
+
+2 green LEDs for input acknowledgement
+2 green LEDs for busy acknowledgement
+2 green LEDs for output acknowledgement
+2 green LEDs are hooked with the "last" and "MSB" button
