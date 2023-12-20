@@ -26,9 +26,9 @@ module KECCAK_f_tb;
     initial begin
         repeat (24) begin
             #2;
-            $display("Round #%0d", $time/2);
+            $display("Round %0d", $time/2);
             $display("S_out = %h", S_out);
-            $display("done  = %b", done);
+            $display("Done  = %b", done);
             $display;
         end
 
