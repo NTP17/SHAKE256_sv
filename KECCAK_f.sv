@@ -20,12 +20,12 @@ module KECCAK_f (
 	Rnd rnd_inst (.A_in(A_in_mid), .i_r(round), .A_out(A_mid_out));
 
 	always_ff @(posedge clock, negedge reset)
-		if (!reset)           A_out = 0;
-		else if (round == 24) A_out = 0;
-		else                  A_out = A_mid_out;
+		if (!reset)             A_out = 'b0;
+		else if (round == 'd24) A_out = 'b0;
+		else                    A_out = A_mid_out;
 
 	A_to_S array_to_string (.A(A_out), .S(S_out));
 
-	assign done = (round == 24);
+	assign done = (round == 'd24);
 
 endmodule
