@@ -17,7 +17,7 @@ module KECCAK_f_tb;
 
         $display("#%0t S_in  = %h", $time, S_in);
         $display("#%0t S_out = %h", $time, S_out);
-        $display("#%0t done  = %b", $time done);
+        $display("#%0t done  = %b", $time, done);
         $display;
 
         #1; reset = 1;
@@ -30,7 +30,7 @@ module KECCAK_f_tb;
             #2;
             $display("#%0t S_in  = %h", $time, S_in);
             $display("#%0t S_out = %h", $time, S_out);
-            $display("#%0t done  = %b", $time done);
+            $display("#%0t done  = %b", $time, done);
             $display;
         end
 
