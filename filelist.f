@@ -7,5 +7,6 @@ chi.sv
 rc.sv
 iota.sv
 Rnd.sv
+round_counter.sv
 KECCAK_f.sv
 KECCAK_f_tb.sv

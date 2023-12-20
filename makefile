@@ -5,4 +5,4 @@ svc:
 	./simv
 
 vd:
-	verdi -sverilog KECCAK_f.sv S_to_A.sv A_to_S.sv theta.sv rho.sv pi.sv chi.sv rc.sv iota.sv Rnd.sv
+	verdi -sverilog KECCAK_f.sv S_to_A.sv A_to_S.sv theta.sv rho.sv pi.sv chi.sv rc.sv iota.sv Rnd.sv round_counter.sv
