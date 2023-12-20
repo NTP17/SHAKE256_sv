@@ -15,9 +15,9 @@ module KECCAK_f_tb;
         reset = 0;
         S_in = 'h1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
 
-        $display("#%0t S_in  = %h", $time, S_in);
-        $display("#%0t S_out = %h", $time, S_out);
-        $display("#%0t done  = %b", $time, done);
+        $display("S_in  = %h", S_in);
+        $display("S_out = %h", S_out);
+        $display("done  = %b", done);
         $display;
 
         #1; reset = 1;
@@ -28,9 +28,9 @@ module KECCAK_f_tb;
     initial begin
         repeat (24) begin
             #2;
-            $display("#%0t S_in  = %h", $time, S_in);
-            $display("#%0t S_out = %h", $time, S_out);
-            $display("#%0t done  = %b", $time, done);
+            $display("Round #%0d", $time/2);
+            $display("S_out = %h", S_out);
+            $display("done  = %b", done);
             $display;
         end
 
