@@ -1,4 +1,5 @@
 1 button for clock
+1 button for reset
 1 button for last signal
 1 button for MSB of message input length
 
