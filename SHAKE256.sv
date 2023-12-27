@@ -40,7 +40,7 @@ module SHAKE256 (
         .data_next(dataB),
         .length(length),
         .addrA(addrA),
-        .addrB(addrB)
+        .addrB(addrB),
         .state_sel(state_sel),
         .wren(wren),
         .busy(busy),
