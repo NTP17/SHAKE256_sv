@@ -16,3 +16,4 @@ altera_mf.v
 inmem.v
 control_unit.sv
 SHAKE256.sv
+SHAKE256_tb.sv
