@@ -39,7 +39,7 @@ module SHAKE256_tb;
 
     initial begin
         #2;
-        repeat (25) begin
+        repeat (26) begin
             #2;
             $display("Round %0d", i);
             $display("full = %b", full);
@@ -48,6 +48,8 @@ module SHAKE256_tb;
             $display("squeezed = %b", squeezed);
             i++;
         end
+
+        $finish;
     end
 
 endmodule
