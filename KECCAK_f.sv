@@ -1,5 +1,5 @@
 module KECCAK_f (
-	input clock, reset,
+	input clock, reset, squeeze,
 	input  [1599:0] S_in,
 	output [1599:0] S_out,
 	output done
@@ -38,6 +38,6 @@ module KECCAK_f (
 
 	A_to_S array_to_string (.A(A_out), .S(S_out));
 
-	assign done = (round == 24);
+	assign done = (round == 24) & squeeze;
 
 endmodule
