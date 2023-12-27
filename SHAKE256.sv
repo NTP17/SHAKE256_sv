@@ -46,7 +46,7 @@ module SHAKE256 (
         .busy(busy),
         .full(full),
         .aclr(aclr),
-        .squeeze(squeeze),
+        .squeeze(squeeze)
     );
 
     KECCAK_f KECCAK (
