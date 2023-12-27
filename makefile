@@ -1,8 +1,15 @@
-.PHONY: vd svc
+.PHONY: vdkcf kcf pad vdpad
 
-svc:
-	vcs -sverilog -timescale=1ps/1ps -f filelist.f
+kcf:
+	vcs -sverilog -timescale=1ps/1ps -f filelist.f -top KECCAK_f_tb
 	./simv
 
-vd:
-	verdi -sverilog KECCAK_f.sv S_to_A.sv A_to_S.sv theta.sv rho.sv pi.sv chi.sv rc.sv iota.sv Rnd.sv round_counter.sv
+pad:
+	vcs -sverilog -timescale=1ps/1ps -f filelist.f -top pad_tb
+	./simv
+
+vdkcf:
+	verdi -sverilog -f filelist.f -top KECCAK_f
+
+vdpad:
+	verdi -sverilog -f filelist.f -top pad
