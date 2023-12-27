@@ -51,7 +51,7 @@ module SHAKE256 (
 
     KECCAK_f KECCAK (
         .clock(clock),
-        .reset(reset),
+        .reset(aclr),
         .squeeze(squeeze),
         .S_in(S_in),
         .S_out(S_out),
