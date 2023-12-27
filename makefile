@@ -1,6 +1,6 @@
-.PHONY: vdkcf kcf pad vdpad shake256 vdshake256
+.PHONY: vdkcf kcf pad vdpad shake vdshake
 
-shake256:
+shake:
 	vcs -sverilog -timescale=1ps/1ps -f filelist.f -top SHAKE256_tb
 	./simv
 
@@ -18,5 +18,5 @@ vdkcf:
 vdpad:
 	verdi -sverilog -f filelist.f -top pad
 
-vdshake256:
+vdshake:
 	verdi -sverilog -f filelist.f -top SHAKE256
