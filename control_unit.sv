@@ -40,47 +40,93 @@ module control_unit (
         end else if (cu_state == INPUT) begin
             if ((length >= 0) && (length <= 1088)) begin
                 cu_state = ABSORB;
-                aclr_reg = 1;
-                absorb_amount = (data_next == 1088'b0) ? (addrB_reg-1) : addrB_reg;
                 addrA_reg = 0;
-                busy_reg = 1;
+                addrB_reg = addrB_reg;
+                absorb_amount = (data_next == 0) ? (addrB_reg-1) : addrB_reg;
                 wren_reg = 0;
+                busy_reg = 1;
                 full_reg = 0;
+                aclr_reg = 1;
+                squeeze_reg = 0;
+                state_sel_reg = 1;
+                round_count = 0;
             end else begin
-                aclr_reg = 0;
                 if (addrA_reg == 6) begin
+                    cu_state = INPUT;
+                    addrA_reg = addrA_reg;
+                    addrB_reg = addrB_reg;
+                    absorb_amount = 0;
+                    wren_reg = 1;
                     busy_reg = 0;
                     full_reg = 1;
-                    wren_reg = 1;
+                    aclr_reg = 0;
+                    squeeze_reg = 0;
+                    state_sel_reg = 1;
+                    round_count = 0;                   
                 end else begin
-                    busy_reg = 0;
-                    full_reg = 0;
-                    wren_reg = 1;
+                    cu_state = INPUT;
                     addrA_reg = addrA_reg + 1;
                     addrB_reg = addrB_reg + 1;
-                end 
-            end
-        end else if (cu_state == ABSORB) begin
-            if (round_count < 24) round_count = round_count + 1;
-            else begin
-                round_count = 0;
-                if (addrA_reg == absorb_amount) begin
-                    cu_state = SQUEEZE;
-                    state_sel_reg = 2;
-                    squeeze_reg = 1;
-                end else begin
-                    state_sel_reg = 0;
+                    absorb_amount = 0;
+                    wren_reg = 1;
+                    busy_reg = 0;
+                    full_reg = 0;
+                    aclr_reg = 0;
                     squeeze_reg = 0;
-                    addrA_reg = addrA_reg + 1; 
+                    state_sel_reg = 1;
+                    round_count = 0;                    
                 end
             end
+        end else if (cu_state == ABSORB) begin
+            if (addrA_reg == absorb_amount) begin
+                cu_state = SQUEEZE;
+                addrA_reg = addrA_reg;
+                addrB_reg = addrB_reg;
+                absorb_amount = absorb_amount;
+                wren_reg = 0;
+                busy_reg = 1;
+                full_reg = 0;
+                aclr_reg = 1;
+                squeeze_reg = 1;
+                state_sel_reg = 2;
+                round_count = round_count;
+            end else if (round_count < 24) begin
+                cu_state = ABSORB;
+                addrA_reg = addrA_reg;
+                addrB_reg = addrB_reg;
+                absorb_amount = absorb_amount;
+                wren_reg = 0;
+                busy_reg = 1;
+                full_reg = 0;
+                aclr_reg = 1;
+                squeeze_reg = 0;
+                state_sel_reg = (addrA_reg == 0) ? 1 : 0;
+                round_count = round_count + 1;
+            end else begin
+                cu_state = ABSORB;
+                addrA_reg = addrA_reg + 1;
+                addrB_reg = addrB_reg;
+                absorb_amount = absorb_amount;
+                wren_reg = 0;
+                busy_reg = 1;
+                full_reg = 0;
+                aclr_reg = 1;
+                squeeze_reg = 0;
+                state_sel_reg = 0;
+                round_count = 0;
+            end
         end else if (cu_state == SQUEEZE) begin
+            cu_state = SQUEEZE;
+            addrA_reg = addrA_reg;
+            addrB_reg = addrB_reg;
+            absorb_amount = absorb_amount;
             wren_reg = 0;
-            busy_reg = 0;
+            busy_reg = 1;
             full_reg = 0;
             aclr_reg = 1;
             squeeze_reg = 1;
-            state_sel_reg = 2;           
+            state_sel_reg = 2;
+            round_count = round_count;
         end
     end
 
