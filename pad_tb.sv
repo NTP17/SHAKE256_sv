@@ -15,7 +15,7 @@ module pad_tb;
     );
 
     initial begin
-        $dumpfile("pad_tb.vcd");
+        $dumpfile("pad.vcd");
         $dumpvars;
         //data_in = {5'b10011, 1083'b0};
 	//data_length = 5;

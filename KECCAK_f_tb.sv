@@ -8,7 +8,7 @@ module KECCAK_f_tb;
     KECCAK_f dut (.clock(clock), .reset(reset), .S_in(S_in), .S_out(S_out), .done(done));
 
     initial begin
-        $dumpfile("KECCAKf_tb.vcd");
+        $dumpfile("KECCAK_f.vcd");
         $dumpvars;
 
         clock = 0;
