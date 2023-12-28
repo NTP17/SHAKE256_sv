@@ -2,9 +2,17 @@ db/
 incremental_db/
 output_files/
 simulation/
+c5_pin_model_dump.txt
 *.bak
 *.qpf
 *.qsf
 *.qdf
 *.qws
 *.rpt
+*.done
+*.smsg
+*.summary
+*.sld
+*.jdi
+*.pin
+*.sof
