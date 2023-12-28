@@ -53,6 +53,7 @@ module SHAKE256_tb;
         $write("%h", hash);
         @(posedge squeezed);
         $write("%h", hash);
+        $display;
 
         #1;
 		$finish;
