@@ -12,7 +12,6 @@ KECCAK_f.sv
 KECCAK_f_tb.sv
 pad.sv
 pad_tb.sv
-altera_mf.v
 inmem.v
 control_unit.sv
 SHAKE256.sv
