@@ -59,7 +59,7 @@ module control_unit (
                 end
             end
         end else if (cu_state == READY) begin
-		      cu_state = ABSORB;
+		        cu_state = ABSORB;
 				absorb_amount = (absorb_amount == 0) ? absorb_amount : (absorb_amount+1);
 				aclr_reg = 1;
         end else if (cu_state == ABSORB) begin
