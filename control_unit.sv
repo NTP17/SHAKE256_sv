@@ -13,7 +13,7 @@ module control_unit (
     logic [4:0] round_count;
     logic [1:0] cu_state;
 
-    localparam INPUT = 1, ABSORB = 2, SQUEEZE = 3;
+    localparam INPUT = 2'd0, READY = 2'd1, ABSORB = 2'd2, SQUEEZE = 2'd3;
 
     assign addrA = addrA_reg;
     assign addrB = addrB_reg;
@@ -39,95 +39,44 @@ module control_unit (
             round_count = 0;
         end else if (cu_state == INPUT) begin
             if ((length >= 0) && (length <= 1088)) begin
-                cu_state = ABSORB;
+                cu_state = READY;
                 addrA_reg = 0;
-                addrB_reg = addrB_reg;
                 absorb_amount = (data_next == 0) ? (addrB_reg-1) : addrB_reg;
                 wren_reg = 0;
                 busy_reg = 1;
                 full_reg = 0;
-                aclr_reg = 1;
-                squeeze_reg = 0;
-                state_sel_reg = 1;
-                round_count = 0;
             end else begin
                 if (addrA_reg == 6) begin
-                    cu_state = INPUT;
-                    addrA_reg = addrA_reg;
-                    addrB_reg = addrB_reg;
-                    absorb_amount = 0;
                     wren_reg = 1;
                     busy_reg = 0;
                     full_reg = 1;
-                    aclr_reg = 0;
-                    squeeze_reg = 0;
-                    state_sel_reg = 1;
-                    round_count = 0;                   
                 end else begin
-                    cu_state = INPUT;
                     addrA_reg = addrA_reg + 1;
                     addrB_reg = addrB_reg + 1;
-                    absorb_amount = 0;
                     wren_reg = 1;
                     busy_reg = 0;
-                    full_reg = 0;
-                    aclr_reg = 0;
-                    squeeze_reg = 0;
-                    state_sel_reg = 1;
-                    round_count = 0;                    
+                    full_reg = 0;                   
                 end
             end
+        end else if (cu_state == READY) begin
+		      cu_state = ABSORB;
+				absorb_amount = (absorb_amount == 0) ? absorb_amount : (absorb_amount+1);
+				aclr_reg = 1;
         end else if (cu_state == ABSORB) begin
             if (addrA_reg == absorb_amount) begin
                 cu_state = SQUEEZE;
-                addrA_reg = addrA_reg;
-                addrB_reg = addrB_reg;
-                absorb_amount = absorb_amount;
-                wren_reg = 0;
-                busy_reg = 1;
-                full_reg = 0;
-                aclr_reg = 1;
                 squeeze_reg = 1;
                 state_sel_reg = 2;
-                round_count = round_count;
-            end else if (round_count < 24) begin
-                cu_state = ABSORB;
-                addrA_reg = addrA_reg;
-                addrB_reg = addrB_reg;
-                absorb_amount = absorb_amount;
-                wren_reg = 0;
-                busy_reg = 1;
-                full_reg = 0;
-                aclr_reg = 1;
-                squeeze_reg = 0;
+            end else if (round_count < 23) begin
                 state_sel_reg = (addrA_reg == 0) ? 1 : 0;
                 round_count = round_count + 1;
             end else begin
-                cu_state = ABSORB;
                 addrA_reg = addrA_reg + 1;
-                addrB_reg = addrB_reg;
-                absorb_amount = absorb_amount;
-                wren_reg = 0;
-                busy_reg = 1;
-                full_reg = 0;
-                aclr_reg = 1;
-                squeeze_reg = 0;
+                squeeze_reg = (addrA_reg == absorb_amount) ? 1 : 0;
                 state_sel_reg = 0;
                 round_count = 0;
             end
-        end else if (cu_state == SQUEEZE) begin
-            cu_state = SQUEEZE;
-            addrA_reg = addrA_reg;
-            addrB_reg = addrB_reg;
-            absorb_amount = absorb_amount;
-            wren_reg = 0;
-            busy_reg = 1;
-            full_reg = 0;
-            aclr_reg = 1;
-            squeeze_reg = 1;
-            state_sel_reg = 2;
-            round_count = round_count;
-        end
+        end else if (cu_state == SQUEEZE) cu_state = SQUEEZE;
     end
 
 endmodule
