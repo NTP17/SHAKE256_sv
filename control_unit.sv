@@ -7,7 +7,7 @@ module control_unit (
     output wren, busy, full, aclr, squeeze
 );
 
-    logic [2:0] addrA_reg, addrB_reg, absorb_amount;
+    logic [3:0] addrA_reg, addrB_reg, absorb_amount;
     logic [1:0] state_sel_reg;
     logic wren_reg, busy_reg, full_reg, aclr_reg, squeeze_reg;
     logic [4:0] round_count;
@@ -15,8 +15,8 @@ module control_unit (
 
     localparam INPUT = 2'd0, READY = 2'd1, ABSORB = 2'd2, SQUEEZE = 2'd3;
 
-    assign addrA = addrA_reg;
-    assign addrB = addrB_reg;
+    assign addrA = addrA_reg[2:0];
+    assign addrB = addrB_reg[2:0];
     assign state_sel = state_sel_reg;
     assign wren = wren_reg;
     assign busy = busy_reg;
