@@ -2,14 +2,14 @@ module inmem (
     input clock, wren_a, wren_b,
     input [1087:0] data_a, data_b,
     input [2:0] address_a, address_b,
-    output [1087:0] q_a, q_b
+    output logic [1087:0] q_a, q_b
 );
 
     logic [1087:0] mem [0:7];
 
     always_ff @(posedge clock) begin
-        if (wren_a) mem[address_a] <= data_a; else q_a <= mem[address_a];
-        if (wren_b) mem[address_b] <= data_b; else q_b <= mem[address_b];
+        if (wren_a) mem[address_a] = data_a; else q_a = mem[address_a];
+        if (wren_b) mem[address_b] = data_b; else q_b = mem[address_b];
     end
 
 endmodule
