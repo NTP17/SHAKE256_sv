@@ -1,9 +1,4 @@
 module WRAPPER(
-	input 		          		CLOCK2_50,
-	input 		          		CLOCK3_50,
-	input 		          		CLOCK4_50,
-	input 		          		CLOCK_50,
-
 	input 		     [3:0]		KEY,
 
 	input 		     [9:0]		SW,
