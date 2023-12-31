@@ -51,7 +51,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -76,7 +76,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -101,7 +101,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -131,7 +131,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -161,7 +161,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -191,7 +191,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -232,7 +232,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
         reset = 0;
@@ -258,7 +258,7 @@ module SHAKE256_tb;
         // $write("%h", hash);
         // @(posedge squeezed);
         // $display("%h", hash);
-        // $display;
+        $display;
 
         #1;
 		$finish;
