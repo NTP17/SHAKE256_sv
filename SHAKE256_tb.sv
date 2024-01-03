@@ -25,6 +25,7 @@ module SHAKE256_tb;
     initial forever #1 clock = ~clock;
 	 
     initial begin
+        $display;
         clock = 0;
         reset = 0;
         $dumpfile("SHAKE256.vcd");
