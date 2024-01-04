@@ -7,7 +7,7 @@ module SHAKE256_tb;
     logic [10:0] length;
     logic busy, full, squeezed;
     logic [1087:0] hash;
-	logic [9:0] clock_count;
+    logic [9:0] clock_count;
 
     SHAKE256 dut (
         .clock(clock),
@@ -20,7 +20,7 @@ module SHAKE256_tb;
         .hash(hash)
     );
 	 
-	always @ (posedge clock) clock_count = clock_count + 1;
+    always @ (posedge clock) clock_count = clock_count + 1;
 	 
     initial forever #1 clock = ~clock;
 	 
@@ -36,7 +36,7 @@ module SHAKE256_tb;
 
         message = 0;
         length = 0;
-		$display("NIST Test Case: Empty String");
+        $display("NIST Test Case: Empty String");
         clock_count = 0;
         @(posedge squeezed);
         $display("Absorb phase took %0d cycles", clock_count);
@@ -61,7 +61,7 @@ module SHAKE256_tb;
 
         message = {5'b10011, 1083'b0};
         length = 5;
-		$display("NIST Test Case: 5-bit String");
+        $display("NIST Test Case: 5-bit String");
         clock_count = 0;
         @(posedge squeezed);
         $display("Absorb phase took %0d cycles", clock_count);
@@ -86,7 +86,7 @@ module SHAKE256_tb;
 
         message = {30'b010100110101100001111011011001, 1058'b0};
         length = 30;
-		$display("NIST Test Case: 30-bit String");
+        $display("NIST Test Case: 30-bit String");
         clock_count = 0;
         @(posedge squeezed);
         $display("Absorb phase took %0d cycles", clock_count);
@@ -111,9 +111,9 @@ module SHAKE256_tb;
 
         message = 'ha3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3;
         length = 1600;
-		$display("NIST Test Case: 1600-bit String");
+        $display("NIST Test Case: 1600-bit String");
         //$write("%h", message);
-		#2;
+        #2;
         message = {512'ha3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3, 576'h0};
         length = 512;
         //$display("%h", message[1087:576]);
@@ -141,9 +141,9 @@ module SHAKE256_tb;
 
         message = 'ha3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3;
         length = 1605;
-		$display("NIST Test Case: 1605-bit String");
+        $display("NIST Test Case: 1605-bit String");
         //$write("%h", message);
-		#2;
+        #2;
         message = {512'ha3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3, 5'h3, 571'h0};
         length = 517;
         //$display("%h", message[1087:571]);
@@ -171,9 +171,9 @@ module SHAKE256_tb;
 
         message = 'ha3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3;
         length = 1630;
-		$display("NIST Test Case: 1630-bit String");
+        $display("NIST Test Case: 1630-bit String");
         //$write("%h", message);
-		#2;
+        #2;
         message = {536'ha3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3, 6'h23, 546'h0};
         length = 542;
         //$display("%h", message[1087:546]);
@@ -243,7 +243,7 @@ module SHAKE256_tb;
         message = "the quick brown fox jumps over the lazy dog";
         length = 344;
         message = {message, 744'b0};
-		$display("User Test Case: \"the quick brown fox jumps over the lazy dog\"");
+        $display("User Test Case: \"the quick brown fox jumps over the lazy dog\"");
         clock_count = 0;
         @(posedge squeezed);
         $display("Absorb phase took %0d cycles", clock_count);
@@ -262,7 +262,7 @@ module SHAKE256_tb;
         $display;
 
         #1;
-		$finish;
+        $finish;
     end
 
 endmodule
